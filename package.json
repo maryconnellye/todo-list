@@ -10,6 +10,7 @@
     "webpack-merge": "^6.0.1"
   },
   "scripts": {
+    "merge": "install --save-dev webpack-merge",
     "start": "webpack serve --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack serve --config webpack.dev.js",
